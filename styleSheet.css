@@ -27,6 +27,29 @@ body {
   background-image: url(crossword.png);
 }
 
+#middle {
+  text-align: center;
+  margin: 0 auto;
+  width: 42.86%;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+
+}
+#footer p {
+  color: #bfc0c0;
+  margin: 10px;
+  position: relative;
+  top: 20px;
+}
+
 #Links {
   color: #2d3142;
   position: fixed;
@@ -86,21 +109,4 @@ ul {
 }
 .button:hover {
   background: #2d3142;
-}
-
-#footer {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  bottom: 5%;
-  left: 0%;
-
-}
-#footer p {
-  color: #bfc0c0;
-  margin: 10px;
-  position: relative;
-  top: 20px;
 }
