@@ -1,17 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
-img {
-  width: 250px;
-}
-
 header {
+  text-align: center;
   position: relative;
   top: 5%;
-  text-align: center;
   margin: 0 auto;
   padding: 0;
 
+}
+
+img {
+  width: 250px;
+  margin: 0 auto;
 }
 
 body {
@@ -27,10 +28,22 @@ body {
   background-image: url(crossword.png);
 }
 
-#middle {
+#header {
   text-align: center;
+  font-size: 1.4em;
+
+}
+
+#Bio {
+  text-align: center;
+  font-size: 1.2em;
   margin: 0 auto;
   width: 42.86%;
+
+
+}
+#loc {
+  color: #FF2B7B;
 }
 
 #footer {
@@ -53,7 +66,7 @@ body {
 #Links {
   color: #2d3142;
   position: fixed;
-  left: 2.5%;
+  left: 4%;
   top: 8%;
   text-align: left;
   margin-bottom: 5px;
