@@ -141,9 +141,15 @@ body {
   top: 9%;
   text-align: right;
   margin-bottom: 5px;
+  text-decoration: none;
 }
 #contact ul {
   list-style-type: none;
+  text-decoration: none;
+  width: 260px;
+}
+#contact a {
+  text-decoration: none;
 }
 .large {
   display: table;
