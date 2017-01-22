@@ -29,9 +29,9 @@ body {
 }
 
 #header {
+  color:#2d3142;
   text-align: center;
   font-size: 1.4em;
-
 }
 
 #Bio {
@@ -42,8 +42,24 @@ body {
 
 
 }
-#loc {
+#Bio p{
+  margin: 20px;
+}
+.purple {
+  color: #A569BD;
+  font-weight: bold;
+}
+.pink {
   color: #FF2B7B;
+  font-weight: bold;
+}
+.blue {
+  color: #3498DB;
+  font-weight: bold;
+}
+.green {
+  color: #2ECC71;
+  font-weight: bold;
 }
 
 #footer {
@@ -63,6 +79,16 @@ body {
   top: 20px;
 }
 
+#contact {
+  color: #2d3142;
+  position: fixed;
+  right: 4%;
+  top: 8%;
+  text-align: left;
+  margin-bottom: 5px;
+
+}
+
 #Links {
   color: #2d3142;
   position: fixed;
@@ -71,6 +97,9 @@ body {
   text-align: left;
   margin-bottom: 5px;
 }
+#Links ul {
+  list-style-type: none;
+}
 .linkButton {
   display: block;
   text-align: center;
@@ -78,9 +107,6 @@ body {
   padding: 5px;
   text-decoration: none;
   /*background-color: blue;*/
-}
-ul {
-  list-style-type: none;
 }
 
 .button {
@@ -99,7 +125,7 @@ ul {
   height: 100%;
   padding: 20px;
   color: #4f5d75;
-  box-shadow: 0 0 0 3px #ffffff inset;
+  /*box-shadow: 0 0 0 3px #ffffff inset;*/
   background: transparent;
 }
 .button .away {
