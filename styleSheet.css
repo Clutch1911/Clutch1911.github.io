@@ -84,9 +84,11 @@ body {
   position: fixed;
   right: 4%;
   top: 8%;
-  text-align: left;
+  text-align: right;
   margin-bottom: 5px;
-
+}
+#contact ul {
+  list-style-type: none;
 }
 
 #Links {
