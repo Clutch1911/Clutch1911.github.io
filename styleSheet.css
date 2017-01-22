@@ -10,7 +10,7 @@ header {
 
 }
 
-img {
+.port {
   width: 250px;
   margin: 0 auto;
 }
@@ -77,6 +77,13 @@ body {
   margin: 10px;
   position: relative;
   top: 20px;
+}
+.heart {
+  position: relative;
+  left: 5px;
+  top: 8px;
+  display: inline;
+  width: 30px;
 }
 
 #contact {
