@@ -18,14 +18,16 @@ body {
 }
 
 #shell {
-  /*text-align: center;
-  width: 50%;
-  top: 150%;
-  padding-top: 200px;
+  text-align: center;
+  width: 52%;
+  top: 100%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin: -100px auto 50px auto;
 
-  background-color: #F9F9F9;
+  background-color: #F6F6F6;
   background-position: center;
-  box-shadow: 0px 0px 1px 1px rgba(0,0,0,.3);*/
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,.2);
 }
 
 #header {
@@ -59,7 +61,7 @@ body {
   text-align: justify;
   font-size: 1.2em;
   margin: 5px auto;
-  width: 42.86%;
+  width: 72%;
   padding: 5px;
 
 }
@@ -175,10 +177,7 @@ body {
   color: #2d3142;
   position: fixed;
   top: 9%;
-  left: 4%;
-  /*left: 0%;
-  top: -8.5%;
-  bottom: -2%;*/
+  left: 5%;
   text-align: center;
   margin-bottom: 5px;
 
