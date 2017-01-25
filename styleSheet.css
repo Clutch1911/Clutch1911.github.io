@@ -49,6 +49,9 @@ body {
   margin: 5px auto;
   padding: 5px;
   width: 42.86%;
+
+  /*background-color: #F3F3F3;
+  background-position: center;*/
 }
 #Bio p{
   margin-bottom: 35px;
@@ -83,6 +86,10 @@ body {
 }
 .blue {
   color: #3498DB;
+  font-weight: bold;
+}
+.turq {
+  color: #76D7C4;
   font-weight: bold;
 }
 .darkblue {
@@ -157,10 +164,20 @@ body {
 #Links {
   color: #2d3142;
   position: fixed;
-  left: 4%;
   top: 9%;
-  text-align: left;
+  left: 4%;
+  /*left: 0%;
+  top: -8.5%;
+  bottom: -2%;*/
+  text-align: center;
   margin-bottom: 5px;
+
+  /*length: 100%;
+  padding-top: 9%;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: rgba(45,49,66,.95);
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,.5);*/
 }
 #Links ul {
   list-style-type: none;
