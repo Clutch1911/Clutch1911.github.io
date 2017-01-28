@@ -23,7 +23,7 @@ body {
   top: 100%;
   padding-top: 100px;
   padding-bottom: 30px;
-  margin: -100px auto 50px auto;
+  margin: -100px auto 10px auto;
 
   background-color: #F6F6F6;
   background-position: center;
@@ -153,30 +153,35 @@ body {
 
 #contact {
   color: #2d3142;
-  position: fixed;
-  right: 4%;
-  top: 12%;
+  position: relative;
+  margin: 10px;
+  /*right: 4%;
+  top: 85px;*/
   text-align: center;
   margin-bottom: 5px;
   text-decoration: none;
 }
 #contact ul {
+  display: inline-block;
   list-style-type: none;
   text-decoration: none;
-  width: 260px;
+  margin: 0;
+  padding-left: 0;
+}
+#contact li {
+  display: inline;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 #contact a {
   text-decoration: none;
-}
-.large {
-  display: table;
-
 }
 
 #Links {
   color: #2d3142;
   position: fixed;
-  top: 12%;
+  top: 85px;
   left: 5%;
   text-align: center;
   margin-bottom: 5px;
@@ -239,4 +244,12 @@ body {
 }
 .button:hover {
   background: #2d3142;
+}
+
+.button .linkbutton .contact {
+  width: 500px;
+}
+.contact:hover{
+
+
 }

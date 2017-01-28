@@ -4,6 +4,7 @@
     <title>Michael Robert Merola</title>
     <link type="text/css" rel="stylesheet" href="styleSheet.css" />
     <link rel="icon" href="CometBadge.png">
+    <script src="dist/js/smooth-scroll.js"></script>
   </head>
 
   <body>
@@ -21,7 +22,7 @@
       <div id="Bio">
         <p>
           I'm a Colorado native hailing from snowy <span class="purple">Boulder, CO</span>. I am a student, a musician, an actor, a fencer, an artist, a developer, and a thinker.
-          This webpage presents the details of myself, my work, and my interests. Contact me if you want to talk! Thanks.
+          This webpage presents the details of myself, my work, and my interests. <a  data-scroll href="#contact">Contact</a> me if you want to talk! Thanks.
         </p>
 
         <p>
@@ -60,16 +61,16 @@
     </div>
 
     <div id="contact">
-      <p>
-        <ul>
-          <li class="button linkButton large"> <a href="tel:7193227742"> <span class="away">Phone</span> <span class="over">(719) 322-7742</span> </a> </li>
 
-          <li class="button linkButton large"> <a href="mailto:michaelr.merola@gmail.com"> <span class="away">Work Email</span> <span class="over">michaelr.merola@gmail.com</span> </a> </li>
+      <ul>
+        <li class="button linkButton contact"> <a href="tel:7193227742"> <span class="away">Phone</span> <span class="over">(719) 322-7742</span> </a> </li>
 
-          <li class="button linkButton large"> <a href="mailto:michael.merola@colorado.edu"> <span class="away">Student Email</span><span class="over">michael.merola@colorado.edu</span> </a> </li>
+        <li class="button linkButton contact"> <a href="mailto:michaelr.merola@gmail.com"> <span class="away">Work Email</span> <span class="over">michaelr.merola@gmail.com</span> </a> </li>
 
-        </ul>
-      </p>
+        <li class="button linkButton contact"> <a href="mailto:michael.merola@colorado.edu"> <span class="away">Student Email</span><span class="over">michael.merola@colorado.edu</span> </a> </li>
+
+      </ul>
+
     </div>
 
     <div id="Links">
@@ -93,7 +94,13 @@
       Copyright 2017 Michael Merola (work in progress) <img class="heart" src="Heart.gif" />
       </p>
     </div>
-
+    <footer>
+      <script>
+        smoothScroll.init();
+      </script>
+    </footer>
   </body>
+
+
 
 </html>
