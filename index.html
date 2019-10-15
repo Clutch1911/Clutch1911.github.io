@@ -8,57 +8,183 @@
 </head>
 
 <body>
+    <div class="page">
+        <!-- HEADER -->
+        <header>
+            <div>
+                <a href="index.html" >
+                    <span class="away"><img id="nameplate" src="assets/name.png" /></span>
+                    <span class="over"><img id="nameplate" src="assets/name-j.png" /></span>
+                </a>
+            </div>
 
-    <header>
-        <div>
-            <a href="index.html" >
-                <img id="nameplate" src="name.png" />
-            </a>
-        </div>
+            <div id="navbar">
+                <a href="./in-progress.html" class="navlink"> ART </a>
+                <a href="./in-progress.html" class="navlink"> FASHION </a>
+                <a href="./music.html" class="navlink"> MUSIC </a>
+                <a href="./in-progress.html" class="navlink"> PHOTO </a>
+                <a href="./in-progress.html" class="navlink"> CODE </a>
+            </div>
 
-        <div id="navbar">
-            <a class="navlink"> ART </a>
-            <a class="navlink"> FASHION </a>
-            <a href="./music.html" class="navlink"> MUSIC </a>
-            <a class="navlink"> PHOTO </a>
-            <a class="navlink"> CODE </a>
-        </div>
+            <div id="divider"></div>
 
-    </header>
+        </header>
 
+        <!-- BODY -->
+        <div id="main">
 
-    <div class="bio"> 
+            <div id="bio" class="container"> 
+
+                <div class="container">
+
+                    <div class="container">
+                        
+                        <h1 class="label">ABOUT</h1>
+                        <p> Artist, Musician, Programmer, and Student from Black Forest, CO</p>
+                        <p> <a id="cu" class="wordlink" href="https://github.com/MichaelMerola/academic-plan" target=" ">Computer Science BS</a>
+                            at University of Colorado Boulder, Graduation May 2020</p>
+                    </div>  
+                    
+                    <div class="container">
+                        <h1 class="label">CURRENT PROJECTS</h1>
+
+                        <p> &#8226 Searching for exciting companies to 
+                            <a id="work" class="wordlink" href="./assets/resume-mrmerola.pdf" target=" ">work</a> 
+                            at post-graduation! &#8226</p>
+
+                        <p> &#8226 Performing local solo gigs in Boulder &#8226</p>
+                    </div>
+
+                    <div class="container">
+                            <h1 class="label">RECENT PROJECTS</h1>
         
-        <p>
-            musician from boulder, co
-        </p>
+                            <p> &#176 Software Engineer Intern at  
+                                <a id="scoville" class="wordlink" href="https://sc0ville.com/index.html?lang=en" target=" ">Scoville Co.</a> 
+                                in Tokyo, Japan &#176</p>
+        
+                            <p> &#176 Producing/Releasing my 2nd EP 
+                                <a id="insight" class="wordlink" href="./assets/resume-mrmerola.pdf" target=" ">Insight</a>
+                                in June &#176</p>
+                        </div>
+
+                </div>
+
+                <div class="frontpics">
+
+                    <img class="prof" src="pictures/prof-dec.jpg"/>
+                    <!-- <span class="prof-disp">
+                    </span> -->
+
+
+                    <img class="prof" src="pictures/hiroshima-bridge.jpg"/>
+                </div>
+                
+                <!-- <p>
+                    Above everything else, I consider myself an artist. Whether it's through tech, music, photography, games, or fashion, my explorations in a variety of fields give me the ability to create new and exciting art to share with the world.
+
+                    <br>Recent Projects: interning with a startup in Tokyo, self-producing a 3-song EP, building a YouTube sampling machine at a hackathon 
+                    
+                    <br>Current Projects: developing an artist-centric startup for my senior capstone, performing solo gigs in Boulder, competing in weekly Smash Ult tourneys
+                    
+                </p> -->
+                    
+            </div>
+
+            <!-- LINKS -->
+            <div class="container">
+
+                <div class="groupedlinks">
+                    <h1 class="label">CONTACT</h1>
+
+                    <a class="link" href="./assets/resume-mrmerola.pdf" target=" ">
+                        <button id="resume"> RESUME </button>
+                    </a> 
+
+                    <a class="link" href="tel:7193227742" target=" ">
+                        <button id="phone">
+                            <span class="away">PHONE</span> <span class="over">(719) 322-7742</span>
+                        </button>
+                    </a>
+
+                    <a class="link" href="mailto:michaelr.merola@gmail.com" target=" ">
+                        <button id="email"> 
+                            <span class="away">EMAIL</span> <span class="over">michaelr.merola@gmail.com</span>
+                        </button>
+                    </a>
+
+                    <!-- <a class="link" href="" target=" ">
+                        <button id="comment"> COMMENT </button>
+                    </a> -->
+
+                </div>
+
+                <div id="musicgroup" class="groupedlinks">
+                    <h1 class="label">MUSIC</h1>
+
+                    <a class="link" href="https://spoti.fi/2LcuhdD" target=" ">
+                        <button id="spoti"> SPOTIFY
+                            <!-- <img class="icon" src="icons/spoti.png"/> -->
+                        </button>
+                    </a>
+
+                    <a class="link" href="https://apple.co/2ZGvulu" target=" ">
+                        <button id="appmusic"> APPLE MUSIC </button>
+                    </a>
+
+                    <a class="link" href="https://www.soundcloud.com/mrmerola" target=" ">
+                        <button id="soundcloud"> SOUNDCLOUD </button>
+                    </a>
+
+                    <a class="link" href="https://play.google.com/store/music/artist?id=Ah73yfgul7wvgswahnkxsxieh7y" target=" ">
+                        <button id="google"> GOOGLE </button>
+                    </a>
+
+                </div>
+
+                <div class="groupedlinks">
+                    <h1 class="label">TECH</h1>
             
+                    <a class="link" href="https://www.linkedin.com/in/michael-merola-31472b131/" target=" ">
+                        <button id="linkedin"> LINKEDIN </button>
+                    </a>   
+
+                    <a class="link" href="https://github.com/MichaelMerola" target=" ">
+                        <button id="git"> GITHUB </button>
+                    </a> 
+
+                    <a class="link" href="https://devpost.com/MichaelMerola" target=" ">
+                        <button id="devpost"> DEVPOST </button>
+                    </a> 
+
+                </div>
+
+                <div class="groupedlinks">
+                    <h1 class="label">SOCIAL</h1>
+
+                    <a class="link" href="http://www.instagram.com/mrmerola" target=" ">
+                        <button id="instagram">INSTAGRAM</button>
+                    </a>
+            
+                    <a class="link" href="https://www.facebook.com/michaelrmerola/" target=" ">
+                        <button id="facebook"> FACEBOOK </button>
+                    </a>   
+
+                    <!-- <a class="link" href="https://www.facebook.com/michaelrmerola/" target=" ">
+                        <button id="youtube"> YOUTUBE </button>
+                    </a>   -->
+
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+        <footer>
+            © 2019 jazuseito records <img class="heart" src="assets/heart.gif" />
+        </footer>
     </div>
-
-    <!-- LINKS -->
-    <div class="links">
-        <button id="instagram">
-            INSTAGRAM
-        </button>
-
-        <a href="http://bit.ly/mrmerola" target=" ">
-            <button id="spoti">SPOTIFY</button>
-        </a>
-
-        <button id="linkedin">
-            LINKEDIN
-        </button>
-
-        <button id="appmus">
-            APPLE MUSIC
-        </button>
-    </div>
-
-
-
-    <footer>
-        © 2019 jazuseito records
-    </footer>
 </body>
 
 </html>
