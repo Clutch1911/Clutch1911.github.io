@@ -4,73 +4,311 @@
 <head>
     <title>mrmerola</title>
     <link type="text/css" rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans&display=swap" rel="stylesheet">
-    <!-- <link rel="icon" href="CometBadge.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/misc/CometBadge.png">
 </head>
 
 <body>
     <div class="page">
+        <!-- HEADER -->
         <header>
             <div>
                 <a href="index.html" >
-                    <img id="nameplate" src="assets/name.png" />
+                    <img id="nameplate" src="assets/misc/name.png" />
                 </a>
             </div>
 
             <div id="navbar">
-                <a href="./in-progress.html" class="navlink"> ART </a>
+                <a href="./art.html" class="navlink"> ART </a>
                 <a href="./in-progress.html" class="navlink"> FASHION </a>
                 <a href="./music.html" class="navlink"> MUSIC </a>
-                <a href="./in-progress.html" class="navlink"> PHOTO </a>
+                <a href="./in-progress.html" class="navlink"> WRITING </a>
                 <a href="./in-progress.html" class="navlink"> CODE </a>
             </div>
 
         </header>
 
-        <div id="main">
-            <div id="discog" class="container">
-                <h1 class="label">DISCOGRAPHY</h1>
-                <div id="albums">
-                    <a href="https://soundcloud.com/mrmerola/so-into-you" target=" ">
-                        <img class="album" src="assets/sointoyou-cover.png"/></a>
+        <!-- BANNER -->
+        <img class="music-banner" src="assets/music/jazz-banner.jpg"/>
 
-                    <a href="https://open.spotify.com/album/5ZakWfPlJSxat2ZqWlGaqr?si=Kz9Qt4MuRO2z4NnACvLcAw" target=" ">
-                        <img class="album" src="assets/insight-cover.jpg"/></a>
+        <!-- STREAM -->
+        <h1 class="label-big" style="text-align: center;">NOW STREAMING WORLDWIDE.</h1>
+        <div id="musicgroup" class="container">
 
-                    <a href="https://open.spotify.com/album/2Mo9CF5vLEecFHYs8wuGzi?si=XrHYQUR4TE-NzV67U5Mc2w" target=" ">
-                        <img class="album" src="assets/moveover-cover.jpg"/></a>
+            <a class="link-side" href="https://spoti.fi/2LcuhdD" target=" ">
+                <img class="stream-big" src="assets/icons/spoti.png">
+            </a>
 
-                    <a href="https://open.spotify.com/album/33fwl3xpoafBKxMR9YcLaB?si=_CTwNFLoQyWFiG0u_-tgsA" target=" ">
-                        <img class="album" src="assets/sunny-cover.jpg"/></a>
-                </div>
+            <a class="link-side" href="https://apple.co/2ZGvulu" target=" ">
+                <img class="stream-big" src="assets/icons/apple.png">
+            </a>
+
+            <a class="link-side" href="https://www.youtube.com/channel/UCpiFft7Nej8epuUfainI19A" target=" ">
+                <img class="stream-big" src="assets/icons/youtube.png">
+            </a>
+
+            <a class="link-side" href="https://www.soundcloud.com/mrmerola" target=" ">
+                <img id="scloud" class="stream-big" src="assets/icons/soundcloud.png">
+            </a>
+
+            <a class="link-side" href="https://play.google.com/store/music/artist?id=Ah73yfgul7wvgswahnkxsxieh7y" target=" ">
+                <img id="gplay" class="stream-big" src="assets/icons/google.png">
+            </a>
+
+            <a class="link-side" href="https://play.google.com/store/music/artist?id=Ah73yfgul7wvgswahnkxsxieh7y" target=" ">
+                <img class="stream-big" src="assets/icons/amazon.png">
+            </a>
+
+        </div>
+
+        <!-- BODY -->
+        <div id="music-page" class="main">
+
+            <!-- DIVIDER -->
+            <div>
+                <img id="music-divide" class="divider" src="assets/music/sight-banner.jpg"/>              
             </div>
 
-            <div id="musicgroup" class="container">
-                <h1 class="label">STREAM</h1>
+            <!-- DISCOG -->
+            <div id="discog" class="container">
+                <h1 class="label-big">DISCOGRAPHY</h1>
 
-                <a class="link-side" href="https://spoti.fi/2LcuhdD" target=" ">
-                    <button id="spoti"> SPOTIFY</button>
-                </a>
+                <!-- gambino -->
+                <div class="album-group">
+                    <h1 class="label-div undl">SO INTO YOU </h1>
 
-                <a class="link-side" href="https://apple.co/2ZGvulu" target=" ">
-                    <button id="appmusic"> APPLE MUSIC </button>
-                </a>
+                    <a href=" " target=" ">
+                        <img class="album-cover" src="assets/music/sointoyou-cover.png"/>
+                    </a>
 
-                <a class="link-side" href="https://www.soundcloud.com/mrmerola" target=" ">
-                    <button id="soundcloud"> SOUNDCLOUD </button>
-                </a>
+                    <a href="https://soundcloud.com/mrmerola/so-into-you" target=" ">
+                        <img class="stream-icon" src="assets/icons/soundcloud.png">
+                    </a>
 
-                <a class="link-side" href="https://play.google.com/store/music/artist?id=Ah73yfgul7wvgswahnkxsxieh7y" target=" ">
-                    <button id="google"> GOOGLE </button>
-                </a>
+                    <p class="album-text">
+                        a sample of Childish Gambino's 'So Into You - Tamia' cover. </p>
 
+                    <p class="album-caption">
+                        2019 - made w help from 
+                        <a id="ciel-link" class="wordlink wl-small" href="http://mixboy.surge.sh/" target=" ">Mixboy Advance</a>
+                        , a hackathon project by Dholakiya / Merola</p>
+                </div>
+
+                <!-- insight -->
+                <div class="album-group">
+                    <h1 class="label-div undl">INSIGHT</h1>
+
+                    <a href="https://www.youtube.com/watch?v=E5usyUcFCk8&list=OLAK5uy_mCHFPzh773MYHElAVNsl1CGGDwHCzX0sw" target=" ">
+                        <img class="album-cover" src="assets/music/insight-cover.jpg"/></a>
+
+                    <a href="https://open.spotify.com/album/5ZakWfPlJSxat2ZqWlGaqr?si=Kz9Qt4MuRO2z4NnACvLcAw" target=" ">
+                        <img class="stream-icon" src="assets/icons/spoti.png">
+                    </a>
+
+                    <a href="https://music.apple.com/us/album/insight-single/1464475505" target=" ">
+                        <img class="stream-icon" src="assets/icons/apple.png">
+                    </a>
+
+                    <a href="https://soundcloud.com/mrmerola/sets/insight" target=" ">
+                        <img class="stream-icon" src="assets/icons/soundcloud.png">
+                    </a>
+
+                    <p class="album-text">
+                        2nd independent project, an EP to experiment with Jazz formats. </p>
+
+                    <p class="album-caption">
+                        © 2019 jazuseito records, M.R. Merola </p>
+                </div>
+
+                <!-- move over -->
+                <div class="album-group">
+                    <h1 class="label-div">"<span class="undl">MOVE OVER</span>"</h1>
+
+                    <a href="https://www.youtube.com/watch?v=WXVOxZWgBrE&list=OLAK5uy_l9HWYk_i6gL4HbK88vt_wbQ7hIP1AbIbA" target=" ">
+                        <img class="album-cover" src="assets/music/moveover-cover.jpg"/></a>
+
+                    <a href="https://open.spotify.com/album/2Mo9CF5vLEecFHYs8wuGzi?si=uLBB9M3eSRGzx_VlHHbaNA" target=" ">
+                        <img class="stream-icon" src="assets/icons/spoti.png">
+                    </a>
+
+                    <a href="https://music.apple.com/us/album/move-over-ep/1435293117" target=" ">
+                        <img class="stream-icon" src="assets/icons/apple.png">
+                    </a>
+
+                    <a href="https://soundcloud.com/mrmerola/sets/move-over" target=" ">
+                        <img class="stream-icon" src="assets/icons/soundcloud.png">
+                    </a>
+
+                    <p class="album-text">
+                        a jazz album ft. standards + original records, <br>
+                        independently Released / Performed / Produced / Engineered. </p>
+
+                    <p class="album-caption">
+                        © 2018 jazuseito records, M.R. Merola </p>
+                </div>
+
+                <!-- sunny -->
+                <div class="album-group">
+                    <h1 class="label-div undl">SUNNY</h1>
+
+                    <a href="https://www.youtube.com/watch?v=We5djcJfjzU" target=" ">
+                        <img class="album-cover" src="assets/music/sunny-cover.jpg"/></a>
+
+                    <a href="https://open.spotify.com/album/33fwl3xpoafBKxMR9YcLaB?si=HJTDzbFfQ0mPr6AtjgNp1A" target=" ">
+                        <img class="stream-icon" src="assets/icons/spoti.png">
+                    </a>
+
+                    <a href="https://music.apple.com/us/album/sunny-single/1434763158" target=" ">
+                        <img class="stream-icon" src="assets/icons/apple.png">
+                    </a>
+
+                    <a href="https://soundcloud.com/mrmerola/sunny" target=" ">
+                        <img class="stream-icon" src="assets/icons/soundcloud.png">
+                    </a>
+
+                    <p class="album-text">
+                        a jazz arrangement of Bobby Hebb's 'Sunny' .</p>
+
+                    <p class="album-caption">
+                        © 2018 jazuseito records, M.R. Merola </p>
+                </div>
+
+                <!-- 
+                    
+                <a href="https://open.spotify.com/album/36nsSdu6lzxzQA5VHilJyV" target=" ">
+                    <img class="album" src="assets/music/misty-cover.jpg"/></a> -->
+
+            </div>
+
+            <!-- RECENT -->
+            <div class="container-last">
+                <h1 class="label-div">RECENT ALBUMS I LOVE</h1>
+
+                <div>
+                    <a href="https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=9oMmv5hZRxq6Dj3OT5eSbQ" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/igor.png"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/6e8eJS3DUWZ9SAjHE5AD5m?si=tA-WjQ_LQXWlhMiWtEigYQ" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/cuco.jpg"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/53oqFs4q8sfqH6IPiyleEN?si=we3ZVpFET827YllOvkiHug" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/free.jpeg"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/23HV3deh17hOFNg3OKmGnW?si=43H3srzST1qBFL-rsIBL6Q" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/george.jpg"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/1yIqauTni1V7l7djYAKSsZ?si=dTqE-mhrSH2u_Uef2PJ2Ew" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/kiwanuka.jpg"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/6Pb7PMZtW0fuEM1lCGvCDu?si=L9oBn61VTTe3HiTNADIT4Q" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/lost.png"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/5E5GTGGayA67UGbcXhoPoO?si=9PO50oi-TRaEXhyvO5qKUQ" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/yuta.jpg"/>
+                    </a>
+
+                    <a href="https://open.spotify.com/album/2Upqk0mMh9OMIVSj9F8Xzw?si=IWJuFbtsSmyF2IXkcLlqBw" target=" ">
+                        <img class="album-cover c-small" src="assets/music/recent/buena.jpg"/>
+                    </a>
+                    
+                </div>
+
+            </div>
+
+            <!-- LINKS -->
+            <div class="container">
+
+                <div class="groupedlinks">
+                    <h1 class="label-small">CONTACT</h1>
+
+                    <a class="link" href="./assets/resume-mrmerola.pdf" target=" ">
+                        <button id="resume"> RESUME </button>
+                    </a> 
+
+                    <a class="link" href="tel:7193227742" target=" ">
+                        <button id="phone">
+                            <span class="away">PHONE</span> <span class="over">(719) 322-7742</span>
+                        </button>
+                    </a>
+
+                    <a class="link" href="mailto:michaelr.merola@gmail.com" target=" ">
+                        <button id="email"> 
+                            <span class="away">EMAIL</span> <span class="over">michaelr.merola@gmail.com</span>
+                        </button>
+                    </a>
+
+                </div>
+
+                <div class="groupedlinks">
+                    <h1 class="label-small">MUSIC</h1>
+
+                    <a class="link" href="https://spoti.fi/2LcuhdD" target=" ">
+                        <button id="spoti"> SPOTIFY
+                            <!-- <img class="icon" src="icons/spoti.png"/> -->
+                        </button>
+                    </a>
+
+                    <a class="link" href="https://apple.co/2ZGvulu" target=" ">
+                        <button id="appmusic"> APPLE MUSIC </button>
+                    </a>
+
+                    <a class="link" href="https://www.soundcloud.com/mrmerola" target=" ">
+                        <button id="soundcloud"> SOUNDCLOUD </button>
+                    </a>
+
+                    <a class="link" href="https://play.google.com/store/music/artist?id=Ah73yfgul7wvgswahnkxsxieh7y" target=" ">
+                        <button id="google"> GOOGLE </button>
+                    </a>
+
+                </div>
+
+                <div class="groupedlinks">
+                    <h1 class="label-small">TECH</h1>
+            
+                    <a class="link" href="https://www.linkedin.com/in/michael-merola-31472b131/" target=" ">
+                        <button id="linkedin"> LINKEDIN </button>
+                    </a>   
+
+                    <a class="link" href="https://github.com/MichaelMerola" target=" ">
+                        <button id="git"> GITHUB </button>
+                    </a> 
+
+                    <a class="link" href="https://devpost.com/MichaelMerola" target=" ">
+                        <button id="devpost"> DEVPOST </button>
+                    </a> 
+
+                </div>
+
+                <div class="groupedlinks">
+                    <h1 class="label-small">SOCIAL</h1>
+
+                    <a class="link" href="http://www.instagram.com/mrmerola" target=" ">
+                        <button id="instagram">INSTAGRAM</button>
+                    </a>
+            
+                    <a class="link" href="https://www.facebook.com/michaelrmerola/" target=" ">
+                        <button id="facebook"> FACEBOOK </button>
+                    </a>   
+
+                    <!-- <a class="link" href="https://www.facebook.com/michaelrmerola/" target=" ">
+                        <button id="youtube"> YOUTUBE </button>
+                    </a>   -->
+
+                </div>
+                
             </div>
 
         </div>
         
 
         <footer>
-            © 2019 jazuseito records <img class="heart" src="assets/heart.gif" />
+            © 2019 jazuseito records <img class="heart" src="assets/misc/heart.gif" />
         </footer>
     </div>
 </body>

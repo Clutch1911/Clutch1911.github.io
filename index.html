@@ -4,8 +4,8 @@
 <head>
     <title>mrmerola</title>
     <link type="text/css" rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans&display=swap" rel="stylesheet">
-    <!-- <link rel="icon" href="CometBadge.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/misc/CometBadge.png">
 </head>
 
 <body>
@@ -14,80 +14,128 @@
         <header>
             <div>
                 <a href="index.html" >
-                    <span class="away"><img id="nameplate" src="assets/name.png" /></span>
-                    <span class="over"><img id="nameplate" src="assets/name-j.png" /></span>
+                    <span class="away"><img id="nameplate" src="assets/misc/name.png" /></span>
+                    <span class="over"><img id="nameplate" src="assets/misc/name-j.png" /></span>
                 </a>
             </div>
 
             <div id="navbar">
-                <a href="./in-progress.html" class="navlink"> ART </a>
+                <a href="./art.html" class="navlink"> ART </a>
                 <a href="./in-progress.html" class="navlink"> FASHION </a>
                 <a href="./music.html" class="navlink"> MUSIC </a>
-                <a href="./in-progress.html" class="navlink"> PHOTO </a>
+                <a href="./in-progress.html" class="navlink"> WRITING </a>
                 <a href="./in-progress.html" class="navlink"> CODE </a>
             </div>
-
-            <div id="divider"></div>
 
         </header>
 
         <!-- BODY -->
-        <div id="main">
+        <div id="front-page" class="main">
 
+            <!-- PICS -->
+            <div class="frontpics">
+
+                <img id="prof-pic" class="prof" src="assets/pictures/prof-dec.jpg"/>
+                <!-- <span class="prof-disp">
+                </span> -->
+
+                <img id="japan-pic" class="prof" src="assets/pictures/hiroshima-bridge.jpg"/>
+
+                <img id="desert-pic" class="prof" src="assets/pictures/desert.jpg"/>
+            </div>
+
+            <!-- DIVIDER -->
+            <div>
+                <img class="divider" src="assets/gradients/pastels.png"/>              
+            </div>
+
+            <!-- BIO -->
             <div id="bio" class="container"> 
 
                 <div class="container">
 
                     <div class="container">
                         
-                        <h1 class="label">ABOUT</h1>
-                        <p> Artist, Musician, Programmer, and Student from Black Forest, CO</p>
-                        <p> <a id="cu" class="wordlink" href="https://github.com/MichaelMerola/academic-plan" target=" ">Computer Science BS</a>
-                            at University of Colorado Boulder, Graduation May 2020</p>
+                        <h1 class="label-big"> HEY! ¿QUE PASO? よろしく </h1>
+
+                        <p> I'm Michael, <i style="color: rgb(90, 90, 90);">&nbsp [me llamo miguel] &nbsp (マイケルです）</i></p>
+
+                        <p> an Artist, Musician, and Programmer from Black Forest, CO.</p>
+
+                        <p> Currently working towards my <a id="cu" class="wordlink" href="https://github.com/MichaelMerola/academic-plan" target=" ">
+                            Computer Science BS</a>
+                            at University of Colorado Boulder to Graduate in May 2020..</p>
+
+                        <p> and searching for exciting companies to 
+                            work at afterwards! 
+                            <a id="work" class="wordlink" href="./assets/resume-mrmerola.pdf" target=" ">resume</a></p>
+
+                        <p> but I'm also an avid producer / jazz-guitarist / fashionisto, and always working on new projects to quench my creative curiousities.</p>
+
+                        <p> check out some of my stuff on this site, or </p>
+
                     </div>  
                     
-                    <div class="container">
-                        <h1 class="label">CURRENT PROJECTS</h1>
+                
+                    <div id="talk" class="container">
+                        <h1 class="label-div">LET'S TALK!</h1>
+                        
+                        <a class="conlink" href="mailto:michaelr.merola@gmail.com" target=" ">michaelr.merola@gmail.com</a>
+                        <a class="conlink" href="./assets/resume-mrmerola.pdf" target=" ">professional resume</a>
+                        <a class="conlink" href="tel:7193227742" target=" ">(719) 322-7742</a>
 
-                        <p> &#8226 Searching for exciting companies to 
-                            <a id="work" class="wordlink" href="./assets/resume-mrmerola.pdf" target=" ">work</a> 
-                            at post-graduation! &#8226</p>
-
-                        <p> &#8226 Performing local solo gigs in Boulder &#8226</p>
                     </div>
 
-                    <div class="container">
-                            <h1 class="label">RECENT PROJECTS</h1>
-        
-                            <p> &#176 Software Engineer Intern at  
-                                <a id="scoville" class="wordlink" href="https://sc0ville.com/index.html?lang=en" target=" ">Scoville Co.</a> 
-                                in Tokyo, Japan &#176</p>
-        
-                            <p> &#176 Producing/Releasing my 2nd EP 
-                                <a id="insight" class="wordlink" href="./assets/resume-mrmerola.pdf" target=" ">Insight</a>
-                                in June &#176</p>
-                        </div>
-
-                </div>
-
-                <div class="frontpics">
-
-                    <img class="prof" src="pictures/prof-dec.jpg"/>
-                    <!-- <span class="prof-disp">
-                    </span> -->
-
-
-                    <img class="prof" src="pictures/hiroshima-bridge.jpg"/>
                 </div>
                 
                 <!-- <p>
-                    Above everything else, I consider myself an artist. Whether it's through tech, music, photography, games, or fashion, my explorations in a variety of fields give me the ability to create new and exciting art to share with the world.
-
-                    <br>Recent Projects: interning with a startup in Tokyo, self-producing a 3-song EP, building a YouTube sampling machine at a hackathon 
-                    
-                    <br>Current Projects: developing an artist-centric startup for my senior capstone, performing solo gigs in Boulder, competing in weekly Smash Ult tourneys
-                    
+                    Above everything else, I consider myself an artist. Whether it's through tech, 
+                    music, photography, games, or fashion, my explorations in a variety of fields 
+                    give me the ability to create new and exciting art to share with the world.
                 </p> -->
+                    
+            </div>
+
+            <!-- PROJECTS -->
+            <div id="bio" class="container"> 
+
+                <div class="container">
+                    
+                    <div class="container">
+                        <h1 class="label-big">CURRENT PROJECTS</h1>
+
+                        <p> &#8226 Building a  
+                            <a id="ciel-link" class="wordlink" href="https://ciel.surge.sh" target=" ">platform</a> 
+                            for Artists to get high-quality commissions. 
+                        </p>
+                        <img id="ciel" class="pic-inline" src="assets/misc/ciel-clean.png">
+
+                        <p style="clear:right;">  &#8226 Performing local solo gigs around Boulder. 
+                            <img id="remember" class="pic-inline" src="assets/pictures/remember.jpg">
+                        </p>
+
+                        <p> &#8226 organizing an upcoming, live-streamed concert series from my room ft. local artists [stay tuned!]
+                            <img id="loft" class="pic-inline" src="assets/misc/loft-poster.png">
+                        </p>
+                    </div>
+
+                    <div class="container-last">
+                        <h1 class="label-big">RECENT PROJECTS</h1>
+    
+                        <p> &#8226 Software Engineer Intern at  
+                            <a id="scoville" class="wordlink" href="https://sc0ville.com/index.html?lang=en" target=" ">Scoville Co.</a> 
+                            in Tokyo, Japan. 
+                            <img id="scoville-pro" class="pic-inline" src="assets/pictures/tokyo-1.jpg">
+                        </p>
+    
+                        <p> &#8226 Producing/Releasing my 2nd EP 
+                            <a id="insight" class="wordlink" href="https://open.spotify.com/album/5ZakWfPlJSxat2ZqWlGaqr?si=Kz9Qt4MuRO2z4NnACvLcAw" target=" ">Insight</a>
+                            in June 2019. 
+                            <img id="insight-sound" class="pic-inline" src="assets/music/insight-cover.jpg">
+                        </p>
+                    </div>
+
+                </div>
                     
             </div>
 
@@ -95,7 +143,7 @@
             <div class="container">
 
                 <div class="groupedlinks">
-                    <h1 class="label">CONTACT</h1>
+                    <h1 class="label-small">CONTACT</h1>
 
                     <a class="link" href="./assets/resume-mrmerola.pdf" target=" ">
                         <button id="resume"> RESUME </button>
@@ -113,14 +161,10 @@
                         </button>
                     </a>
 
-                    <!-- <a class="link" href="" target=" ">
-                        <button id="comment"> COMMENT </button>
-                    </a> -->
-
                 </div>
 
-                <div id="musicgroup" class="groupedlinks">
-                    <h1 class="label">MUSIC</h1>
+                <div class="groupedlinks">
+                    <h1 class="label-small">MUSIC</h1>
 
                     <a class="link" href="https://spoti.fi/2LcuhdD" target=" ">
                         <button id="spoti"> SPOTIFY
@@ -143,7 +187,7 @@
                 </div>
 
                 <div class="groupedlinks">
-                    <h1 class="label">TECH</h1>
+                    <h1 class="label-small">TECH</h1>
             
                     <a class="link" href="https://www.linkedin.com/in/michael-merola-31472b131/" target=" ">
                         <button id="linkedin"> LINKEDIN </button>
@@ -160,7 +204,7 @@
                 </div>
 
                 <div class="groupedlinks">
-                    <h1 class="label">SOCIAL</h1>
+                    <h1 class="label-small">SOCIAL</h1>
 
                     <a class="link" href="http://www.instagram.com/mrmerola" target=" ">
                         <button id="instagram">INSTAGRAM</button>
@@ -176,14 +220,14 @@
 
                 </div>
                 
-                
-
             </div>
 
         </div>
 
+        
+
         <footer>
-            © 2019 jazuseito records <img class="heart" src="assets/heart.gif" />
+            © 2019 jazuseito records <img class="heart" src="assets/misc/heart.gif" />
         </footer>
     </div>
 </body>
