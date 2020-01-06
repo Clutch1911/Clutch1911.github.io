@@ -98,9 +98,7 @@ header {
 #front-page {
     /* background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png"); */
 }
-#music-page {
-
-}
+#music-page {}
 
 .divider {
     /* padding: 20px; */
@@ -123,17 +121,38 @@ footer {
 }
 
 /* TEXT */
+p {
+    color: rgb(63, 63, 63);
+}
+
 #bio p {
     text-align: left;
     margin: 20px 6% 0px;
     font-size: 14pt;
-    color: rgb(68, 68, 68);
-
+    color: rgb(63, 63, 63);
 }
 #talk {
     text-align: center;
     margin: 20px 6% 0px;
 }
+
+.caption-text {
+    font-size: 13pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sub-text {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 10pt;
+    color: rgb(100, 100, 100);
+}
+.left {text-align: left;}
+.right {text-align: right;}
+.cntr {text-align: center !important;}
+.undl {text-decoration: underline;}
+.itlc {font-style: italic;}
+.light {}
 
 /* PICTURES */
 .frontpics {
@@ -142,13 +161,50 @@ footer {
 
 .art {
     object-fit: cover;
-    width: 100%;
+    width: 0%;
     height: 300px;
 
     transition: 0.3s;
     box-shadow: 7px 7px 3px 0px rgba(0,0,0,.6);
 
     margin: 5px 0 20px;
+}
+
+.project-group {
+    text-align: left;
+    margin: 10px 6% 0px;
+    font-size: 12pt;
+    color: rgb(63, 63, 63);
+}
+
+.project {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    transition: 0.3s;
+    
+    margin-bottom: 20px;
+}
+.project:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#mixboy {object-position: 0% 100%;}
+
+.poster {
+    display: inline-grid;
+    text-align: center;
+    object-fit: cover;
+    width: 250px;
+    height: 100%;
+    margin-right: 10px;
+    transition: 0.3s;
+
+    margin-bottom: 20px;
+}
+.poster:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .prof {
@@ -252,6 +308,11 @@ footer {
     display: inline-grid;
 }
 
+#musicgroup {
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
 .stream-icon {
     /* object-fit: cover; */
     width: 60px;
@@ -260,21 +321,19 @@ footer {
     transition: 0.3s;
 }
 .stream-icon:hover {transform: scale(1.1);}
+#gplay {width: 90px; margin-left: 15px;}
+#scloud {width: 100px}
 
-#musicgroup {
-    margin-top: 20px;
-    vertical-align: middle;
-}
+.s-big {width: 103px;}
+.s-small {width: 40px;}
 
-.stream-big {
+/* .stream-big {
     width: 103px;
     display: inline-block;
     margin-left: 10px;
     transition: 0.3s;
 }
-.stream-big:hover {transform: scale(1.1);}
-#gplay {width: 90px; margin-left: 15px;}
-#scloud {width: 100px}
+.stream-big:hover {transform: scale(1.1);} */
 
 /* LINKS */
 
@@ -380,6 +439,7 @@ footer {
 
 #cu {background-color: rgba(230, 201, 139, 0.5);}
 #work {background-color: rgba(135, 209, 138, 0.397);}
+#light {background-color: rgba(135, 165, 209, 0.397);}
 #scoville {background-color: rgba(223, 130, 130, 0.5);}
 #insight {background-color: rgba(255, 183, 116, 0.5);}
 #phone-small {color: rgb(250, 250, 250); background-color: rgba(190, 190, 190, 0.5);}
@@ -394,10 +454,13 @@ footer {
     text-align: center;
     margin-bottom: 25px;
 }
-
 .container-last {
     text-align: center;
     margin-bottom: 50px;
+}
+.container-opp {
+    text-align: left;
+    margin-top: 10px;
 }
 
 .label-big {
@@ -405,7 +468,7 @@ footer {
     white-space: nowrap;
 
     font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 44pt;
     font-style: italic;
     margin: 0px auto 10px;
@@ -415,15 +478,11 @@ footer {
 .label-div {
     white-space: nowrap;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 26pt;
     font-style: italic;
     margin: 0px auto 8px;
     color: #1b1b1bd9;
-
-    /* width: 80%;
-    background-color: #272727;
-    color: #ffffff; */
 }
 .label-small {
     font-family: 'PT Sans', sans-serif;
@@ -434,7 +493,6 @@ footer {
     margin: 0px auto 8px;
     color: #1b1b1bd9;
 }
-.undl {text-decoration: underline;}
 
 .icon {
     display: inline-flex;
@@ -442,10 +500,9 @@ footer {
 }
 
 .notice {
-    /* font-family: 'PT Sans', sans-serif; */
     position: static;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30pt;
 }
 
@@ -454,9 +511,9 @@ footer {
     left: 4px;
     top: 3px;
     width: 15px;
-  }
+}
 
-  #pooh {
+#pooh {
     position: absolute;
     left: 0;
     right: 0;
