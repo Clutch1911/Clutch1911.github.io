@@ -327,13 +327,11 @@ p {
 .s-big {width: 103px;}
 .s-small {width: 40px;}
 
-/* .stream-big {
-    width: 103px;
-    display: inline-block;
-    margin-left: 10px;
+.stream-side {
+    position: absolute;
+    left: 0;
     transition: 0.3s;
 }
-.stream-big:hover {transform: scale(1.1);} */
 
 /* LINKS */
 
@@ -463,6 +461,15 @@ p {
     margin-top: 10px;
 }
 
+.cont-mob {
+    display: inline-flex;
+    transition: 0.1s;
+    margin-bottom: 30px;
+}
+.cont-mob:hover {
+    transform: scale(1.1);
+}
+
 .label-big {
     text-align: left;
     white-space: nowrap;
@@ -473,6 +480,9 @@ p {
     font-style: italic;
     margin: 0px auto 10px;
     color: #1b1b1bd9;
+}
+.lb-x {
+    margin: 0 25px;
 }
 
 .label-div {
@@ -596,7 +606,9 @@ p {
         font-size: 15pt;
     }
 
-
+    .heart {
+        top: 1px;
+    }
 
     footer {
         font-size: 14pt;
