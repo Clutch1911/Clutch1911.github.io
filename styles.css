@@ -464,10 +464,10 @@ p {
 .cont-mob {
     display: inline-flex;
     transition: 0.1s;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .cont-mob:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .label-big {
@@ -483,6 +483,7 @@ p {
 }
 .lb-x {
     margin: 0 25px;
+    vertical-align: text-bottom;
 }
 
 .label-div {
@@ -563,8 +564,9 @@ p {
         padding-top: 30px;
     }
 
-    .outer {
-        /* margin: 0px 6% 0px; */
+    .album-cover {
+        width: 70%;
+        box-shadow: none;
     }
 
     .container {
