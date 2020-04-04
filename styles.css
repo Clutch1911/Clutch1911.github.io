@@ -333,6 +333,49 @@ p {
     transition: 0.3s;
 }
 
+/* LOFT MUSIC */
+
+.loft-banner {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0;
+}
+
+.loft-spacer {
+    margin-bottom: 30px;
+}
+.loft-icons {
+    margin-top: 10px;
+}
+
+.loft-name {
+    object-fit: cover;
+    object-position: 0% 30%;
+    height: 100px;
+    width: 300px;
+    transition: 0.2s;
+}
+
+.loft-pic {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    /* margin-top: 10px; */
+}
+#jam {object-position: 0% 0%;}
+#anson {object-position: 0% 82%;}
+
+.loft-text {
+    font-family: 'Shrikhand';
+    font-weight: 200;
+    font-size: 14pt;
+    color: rgb(63, 63, 63);
+    margin: 15px 6% 15px;
+}
+
+
+
 /* LINKS */
 
 .navlink{
