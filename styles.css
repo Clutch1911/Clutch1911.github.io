@@ -357,6 +357,16 @@ p {
     transition: 0.2s;
 }
 
+.loft-video {
+    width: 633px; 
+    height: 388px;
+}
+
+.sc-embed {
+    width: 400px;
+    height: 450px;
+}
+
 .loft-pic {
     object-fit: cover;
     height: 250px;
@@ -658,6 +668,48 @@ p {
     footer {
         font-size: 14pt;
         bottom: 15px;
+    }
+
+    /* LOFT MUSIC */
+
+    .loft-banner {
+        height: 500px;
+    }
+
+    .loft-spacer {
+        margin-bottom: 30px;
+    }
+    .loft-icons {
+        margin-top: 30px;
+    }
+    #loft-icon {
+        width: 100px;
+    }
+
+    .loft-name {
+        height: 200px;
+        width: 700px;
+    }
+
+    .loft-video {
+        width: 860px;
+        height: 500px;
+    }
+
+    .sc-embed {
+        width: 600px;
+        height: 750px;
+        margin-bottom: 30px;
+    }
+
+    .loft-pic {
+        height: 500px;
+    }
+    #anson {object-position: 0% 82%;}
+
+    .loft-text {
+        font-size: 21pt;
+        margin: 25px 0% 25px;
     }
 
 }
